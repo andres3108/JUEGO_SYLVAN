@@ -1,6 +1,6 @@
 # Guardianes del Bosque
 
-Videojuego 2.5D de plataformas hecho en **Unity 6.6 (6000.6.0f1)** con URP para Diseño Interactivo (UNAD, fase 2).
+Videojuego 2.5D de plataformas hecho en **Unity 6.6 (6000.6.0f1)** con URP para Diseño Interactivo.
 Eres un guardián del bosque, **Sylvan** o **Maya**, y recorres el sendero recogiendo residuos (botellas, latas y papel) mientras saltas obstáculos.
 
 ## Contenido
