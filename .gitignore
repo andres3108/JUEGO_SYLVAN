@@ -1,0 +1,39 @@
+# Unity: carpetas que Unity regenera sola al abrir el proyecto
+JUEGO_GUARDIAN/[Ll]ibrary/
+JUEGO_GUARDIAN/[Tt]emp/
+JUEGO_GUARDIAN/[Oo]bj/
+JUEGO_GUARDIAN/[Bb]uild/
+JUEGO_GUARDIAN/[Bb]uilds/
+JUEGO_GUARDIAN/[Ll]ogs/
+JUEGO_GUARDIAN/[Uu]ser[Ss]ettings/
+JUEGO_GUARDIAN/[Mm]emoryCaptures/
+JUEGO_GUARDIAN/[Rr]ecordings/
+
+# Visual Studio / Rider (se generan desde Unity)
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity Version Control (Plastic)
+.plastic/
+ignore.conf
+
+# Blender: copias de seguridad
+*.blend1
+*.blend2
+
+# sistema
+Thumbs.db
+desktop.ini
+.DS_Store
