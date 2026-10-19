@@ -125,7 +125,7 @@ public class SeleccionPersonaje : MonoBehaviour
 
         var t = Texto(win, titulo, font, 28, FontStyle.Bold, Color.white);
         t.rectTransform.anchoredPosition = new Vector2(0, 145);
-        var sub = Texto(win, "Haz clic en un personaje  ·  ← → y Enter  ·  1 / 2", font, 14, FontStyle.Normal, new Color(1, 1, 1, 0.75f));
+        var sub = Texto(win, ControlesTactiles.EsMovil ? "Toca un personaje para elegirlo" : "Haz clic en un personaje  ·  ← → y Enter  ·  1 / 2", font, 14, FontStyle.Normal, new Color(1, 1, 1, 0.75f));
         sub.rectTransform.anchoredPosition = new Vector2(0, -158);
 
         marcos = new Image[opciones.Length];

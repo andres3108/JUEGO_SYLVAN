@@ -58,6 +58,8 @@ public class GameManager : MonoBehaviour
         total = FindObjectsByType<Residuo>().Length;
         BuildHud();
         if (!GetComponent<FondoContaminacion>()) gameObject.AddComponent<FondoContaminacion>();
+        if (!GetComponent<MenuPausa>()) gameObject.AddComponent<MenuPausa>();   // Escape: menú de pausa
+        if (!GetComponent<ControlesTactiles>()) gameObject.AddComponent<ControlesTactiles>();   // botones en el celular
         UpdateCounter();
         // si hay pantalla de selección de personaje, el título se muestra al elegir
         var sel = FindAnyObjectByType<SeleccionPersonaje>();
@@ -103,6 +105,11 @@ public class GameManager : MonoBehaviour
         if (gameOver && !menuFinal && kb != null && (kb.spaceKey.wasPressedThisFrame || kb.upArrowKey.wasPressedThisFrame
                                        || kb.enterKey.wasPressedThisFrame))
             Continuar();
+        // en el celular: tocar la pantalla (medio segundo después de terminar, para no hacerlo sin querer)
+        var toque = Touchscreen.current;
+        if (gameOver && !menuFinal && toque != null && toque.primaryTouch.press.wasPressedThisFrame
+            && Time.unscaledTime - tiempoFin > 0.5f)
+            Continuar();
     }
 
     public void VolverAlInicio() => SceneManager.LoadScene(0);   // el menú principal es la escena 0
@@ -131,10 +138,12 @@ public class GameManager : MonoBehaviour
     public void Lose()
     {
         if (gameOver) return;
-        EndGame("¡Inténtalo de nuevo!", Rojo, "Presiona ESPACIO para reiniciar");
+        EndGame("¡Inténtalo de nuevo!", Rojo, ControlesTactiles.EsMovil
+            ? "Toca la pantalla para reiniciar" : "Presiona ESPACIO para reiniciar");
     }
 
     bool ganado, haySiguiente, menuFinal;
+    float tiempoFin;
 
     void Win()
     {
@@ -215,6 +224,7 @@ public class GameManager : MonoBehaviour
     void EndGame(string title, Color color, string subtitle)
     {
         gameOver = true;
+        tiempoFin = Time.unscaledTime;
         if (player) player.controlsEnabled = false;
         titleText.text = title;
         titleText.color = color;

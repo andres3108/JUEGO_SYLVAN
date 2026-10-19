@@ -57,17 +57,20 @@ public class GuardianController : MonoBehaviour
 
     void Update()
     {
-        var kb = Keyboard.current;
-        if (kb == null) return;
+        var kb = Keyboard.current;   // en el celular puede no haber teclado: se usan los controles táctiles
 
         float input = 0f;
         if (controlsEnabled)
         {
-            if (kb.aKey.isPressed || kb.leftArrowKey.isPressed) input -= 1f;
-            if (kb.dKey.isPressed || kb.rightArrowKey.isPressed) input += 1f;
-
-            if (kb.spaceKey.wasPressedThisFrame || kb.wKey.wasPressedThisFrame || kb.upArrowKey.wasPressedThisFrame)
-                lastJumpPressedTime = Time.time;
+            if (kb != null)
+            {
+                if (kb.aKey.isPressed || kb.leftArrowKey.isPressed) input -= 1f;
+                if (kb.dKey.isPressed || kb.rightArrowKey.isPressed) input += 1f;
+                if (kb.spaceKey.wasPressedThisFrame || kb.wKey.wasPressedThisFrame || kb.upArrowKey.wasPressedThisFrame)
+                    lastJumpPressedTime = Time.time;
+            }
+            input = Mathf.Clamp(input + ControlesTactiles.Horizontal, -1f, 1f);
+            if (ControlesTactiles.ConsumirSalto()) lastJumpPressedTime = Time.time;
         }
 
         // velocidad horizontal
