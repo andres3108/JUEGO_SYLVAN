@@ -112,6 +112,18 @@ def medallon(im, cx, cy, r, icono):
                   outline=CONTORNO)
         d.rectangle([cx - ri * 0.55, cy - ri * 0.1, cx + ri * 0.55, cy + ri * 0.7], fill=CREMA, outline=CONTORNO, width=2 * S)
         d.rectangle([cx - ri * 0.17, cy + ri * 0.2, cx + ri * 0.17, cy + ri * 0.7], fill=CONTORNO)
+    elif icono in ("izquierda", "derecha"):
+        k = -1 if icono == "izquierda" else 1
+        d.polygon([(cx + k * ri * 0.7, cy), (cx - k * ri * 0.45, cy - ri * 0.72), (cx - k * ri * 0.45, cy + ri * 0.72)],
+                  fill=CREMA, outline=CONTORNO)
+    elif icono == "saltar":
+        d.polygon([(cx, cy - ri * 0.75), (cx - ri * 0.7, cy + ri * 0.05), (cx - ri * 0.25, cy + ri * 0.05),
+                   (cx - ri * 0.25, cy + ri * 0.7), (cx + ri * 0.25, cy + ri * 0.7), (cx + ri * 0.25, cy + ri * 0.05),
+                   (cx + ri * 0.7, cy + ri * 0.05)], fill=CREMA, outline=CONTORNO)
+    elif icono == "pausa":
+        for k in (-1, 1):
+            d.rounded_rectangle([cx + k * ri * 0.32 - ri * 0.17, cy - ri * 0.6, cx + k * ri * 0.32 + ri * 0.17, cy + ri * 0.6],
+                                radius=4 * S, fill=CREMA, outline=CONTORNO, width=2 * S)
     elif icono.endswith(".png"):
         ret = Image.open(icono).convert("RGBA").resize((2 * ri, 2 * ri), Image.LANCZOS)
         m = Image.new("L", (2 * ri, 2 * ri), 0)
@@ -197,6 +209,29 @@ def panel():
     guardar(im, "panel_seleccion.png", (W // S, H // S))
 
 
+def boton_tactil(nombre, icono):
+    """Botón redondo de madera para los controles táctiles (Android): solo el medallón con su icono."""
+    n = 200 * S
+    im = Image.new("RGBA", (n, n), (0, 0, 0, 0))
+    medallon(im, n // 2, n // 2, n // 2 - 6 * S, icono)
+    d = ImageDraw.Draw(im)
+    hoja(d, 40 * S, 34 * S, 46 * S, 16 * S, -2.4)
+    hoja(d, 160 * S, 34 * S, 46 * S, 16 * S, -0.7)
+    guardar(im, nombre, (n // S, n // S))
+
+
+def panel_pausa():
+    """Tablero del menú de pausa (tecla Escape en las zonas): título PAUSA y espacio para 3 botones."""
+    W, H = 760 * S, 820 * S
+    im = madera(W, H, 50 * S, (104, 64, 32))
+    d = ImageDraw.Draw(im)
+    texto(d, (W // 2, 95 * S), "PAUSA", fuente(FUENTE, 92 * S), grosor=7)
+    for (x, y, l, a) in ((40, 50, 90, -2.4), (30, 110, 70, 3.1), (720, 50, 90, -0.7), (730, 110, 70, 0.1),
+                         (50, 770, 80, 2.4), (710, 770, 80, 0.7)):
+        hoja(d, x * S, y * S, l * S, 26 * S, a)
+    guardar(im, "panel_pausa.png", (W // S, H // S))
+
+
 def tarjeta(nombre, borde, brillo):
     W, H = 400 * S, 520 * S
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -249,6 +284,11 @@ boton("btn_continuar.png", "CONTINUAR\nZONA 2", "play")   # fin de la Zona 1
 boton("btn_continuar_3.png", "CONTINUAR\nZONA 3", "play")   # fin de la Zona 2
 boton("btn_zona4.png", "ZONA 4\nPRÓXIMAMENTE", "candado")   # fin de la Zona 3
 boton("btn_volver_inicio.png", "VOLVER AL\nINICIO", "casa")
+boton("btn_continuar_juego.png", "CONTINUAR", "play", 80)   # menú de pausa
+panel_pausa()
+for _n, _i in (("tactil_izquierda.png", "izquierda"), ("tactil_derecha.png", "derecha"),
+               ("tactil_saltar.png", "saltar"), ("tactil_pausa.png", "pausa")):
+    boton_tactil(_n, _i)   # controles táctiles (Android)
 panel()
 tarjeta("tarjeta.png", (122, 84, 44), False)
 tarjeta("tarjeta_sel.png", (246, 196, 64), True)

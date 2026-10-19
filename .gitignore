@@ -37,3 +37,12 @@ ignore.conf
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# compilación del juego e instalador (se generan, no se suben)
+Compilacion/
+Instalador/
+Android/
+
+# archivos que crea Unity al compilar (Test Framework)
+JUEGO_GUARDIAN/Assets/Resources/PerformanceTestRun*.json
+JUEGO_GUARDIAN/Assets/Resources/PerformanceTestRun*.json.meta
