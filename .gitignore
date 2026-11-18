@@ -1,3 +1,14 @@
+# Carpetas temporales de Unity (en cualquier ubicación)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
 # Unity: carpetas que Unity regenera sola al abrir el proyecto
 JUEGO_GUARDIAN/[Ll]ibrary/
 JUEGO_GUARDIAN/[Tt]emp/
