@@ -6,6 +6,8 @@ using UnityEngine.UI;
 //  - Aura: halo suave que late + rayos que giran detrás del objeto, del color de cada residuo.
 //  - Recogida: explosión de hojitas verdes y chispas del color del residuo, texto "+puntos" que sube
 //    y se desvanece, y un sonido de campanita (más agudo o grave según el tipo).
+// Brillo, tamaño, pétalos y cantidades se ajustan en vivo desde el Inspector:
+// menú Guardianes del Bosque > Ajustes de efectos (Assets/Resources/AjustesEfectos.asset).
 public static class EfectosRecogida
 {
     public static Color ColorDe(string tipo) => tipo switch
@@ -37,12 +39,23 @@ public static class EfectosRecogida
         return Mathf.Pow(Mathf.Clamp01(1f - d), 2.2f);
     });
 
-    static Sprite Rayos => rayos != null ? rayos : rayos = Crear(128, (x, y) =>
+    // rayos (pétalos) del aura y del destello; se vuelven a dibujar si cambia el número en los ajustes
+    static int petalosRayos;
+    static Sprite Rayos
     {
-        float d = Mathf.Sqrt(x * x + y * y), a = Mathf.Atan2(y, x);
-        float rayo = Mathf.Pow(Mathf.Abs(Mathf.Cos(a * 4f)), 18f) + 0.6f * Mathf.Pow(Mathf.Abs(Mathf.Cos(a * 4f + 0.39f)), 30f);
-        return rayo * Mathf.Clamp01(1f - d) * Mathf.Clamp01(d * 4f);
-    });
+        get
+        {
+            int n = Mathf.Max(2, AjustesEfectos.Actual.petalos);
+            if (rayos != null && n == petalosRayos) return rayos;
+            petalosRayos = n;
+            return rayos = Crear(128, (x, y) =>
+            {
+                float d = Mathf.Sqrt(x * x + y * y), a = Mathf.Atan2(y, x);
+                float rayo = Mathf.Pow(Mathf.Abs(Mathf.Cos(a * n * 0.5f)), 18f);   // n rayos iguales
+                return rayo * Mathf.Clamp01(1f - d) * Mathf.Clamp01(d * 4f);
+            });
+        }
+    }
 
     static Sprite Hoja => hoja != null ? hoja : hoja = Crear(64, (x, y) =>
     {
@@ -105,7 +118,6 @@ public static class EfectosRecogida
         public Transform objetivo;
         public Color color;
         public SpriteRenderer halo, rayos;
-        public float tamaño = 1.9f;
         float fase;
 
         void Start() => fase = Random.value * 10f;
@@ -115,13 +127,15 @@ public static class EfectosRecogida
             if (!objetivo) { Destroy(gameObject); return; }
             // detrás del objeto (la cámara mira hacia +z) y sin girar con él
             transform.position = objetivo.position + new Vector3(0f, 0f, 0.4f);
+            var aj = AjustesEfectos.Actual;   // se leen cada fotograma: los cambios se ven en vivo
             float t = Time.time * 2.2f + fase;
             float pulso = 0.5f + 0.5f * Mathf.Sin(t);
-            halo.transform.localScale = Vector3.one * tamaño * (0.9f + 0.15f * pulso);
-            halo.color = new Color(color.r, color.g, color.b, 0.75f + 0.25f * pulso);
-            rayos.transform.localScale = Vector3.one * tamaño * 1.35f;
-            rayos.transform.localRotation = Quaternion.Euler(0f, 0f, Time.time * 25f + fase * 30f);
-            rayos.color = new Color(color.r, color.g, color.b, 0.5f + 0.3f * (1f - pulso));
+            halo.transform.localScale = Vector3.one * aj.tamañoAura * (0.9f + 0.15f * pulso);
+            halo.color = new Color(color.r, color.g, color.b, aj.brilloAura * (0.75f + 0.25f * pulso));
+            if (rayos.sprite != Rayos) rayos.sprite = Rayos;
+            rayos.transform.localScale = Vector3.one * aj.tamañoAura * 1.35f;
+            rayos.transform.localRotation = Quaternion.Euler(0f, 0f, Time.time * aj.giroRayos + fase * 30f);
+            rayos.color = new Color(color.r, color.g, color.b, aj.brilloAura * (0.5f + 0.3f * (1f - pulso)));
         }
     }
 
@@ -162,12 +176,13 @@ public static class EfectosRecogida
                 r.sortingOrder = o++;
                 r.transform.localPosition = new Vector3(0, 0, Z);
             }
-            for (int i = 0; i < 22; i++)   // hojitas
+            var aj = AjustesEfectos.Actual;
+            for (int i = 0; i < aj.cantidadHojas; i++)   // hojitas
             {
                 var verde = Color.Lerp(new Color(0.55f, 0.95f, 0.3f), new Color(0.95f, 1f, 0.45f), Random.value);
-                Nueva(Hoja, verde, Random.Range(3f, 5.5f), Random.Range(0.42f, 0.68f), Random.Range(1.6f, 2.2f), true);
+                Nueva(Hoja, verde, Random.Range(3f, 5.5f), Random.Range(0.42f, 0.68f) * aj.tamañoHojas, Random.Range(1.6f, 2.2f), true);
             }
-            for (int i = 0; i < 16; i++)   // chispas del color del residuo
+            for (int i = 0; i < aj.cantidadChispas; i++)   // chispas del color del residuo
                 Nueva(Chispa, Color.Lerp(c, Color.white, 0.45f), Random.Range(2f, 4f), Random.Range(0.28f, 0.45f), Random.Range(0.8f, 1.3f), false);
         }
 
@@ -183,7 +198,7 @@ public static class EfectosRecogida
             SpriteRenderer brillo = null;
             if (hoja)   // halo luminoso detrás de cada hoja
             {
-                brillo = NuevoSprite("Brillo", Halo, new Color(color.r, color.g, color.b, 0.7f), transform);
+                brillo = NuevoSprite("Brillo", Halo, new Color(color.r, color.g, color.b, 0.7f * AjustesEfectos.Actual.brilloHaloHojas), transform);
                 brillo.sortingOrder = 30;
                 brillo.transform.localPosition = start + new Vector3(0, 0, 0.05f);
                 brillo.transform.localScale = Vector3.one * tam * 2.2f;
@@ -201,14 +216,16 @@ public static class EfectosRecogida
             float dt = Time.deltaTime;
             t += dt;
             // destello: núcleo blanco breve, onda de color y estallido de rayos que se expanden
+            var aj = AjustesEfectos.Actual;
+            float b = aj.brilloDestello, s = aj.tamañoDestello;
             float k1 = Mathf.Clamp01(t / 0.25f), k2 = Mathf.Clamp01(t / 0.6f);
-            nucleo.transform.localScale = Vector3.one * Mathf.Lerp(1.2f, 2.2f, k1);
-            nucleo.color = new Color(1, 1, 1, 1f - k1);
-            onda.transform.localScale = Vector3.one * Mathf.Lerp(1f, 5f, k2);
-            onda.color = new Color(color.r, color.g, color.b, 0.9f * (1f - k2));
-            estallido.transform.localScale = Vector3.one * Mathf.Lerp(1.5f, 4.5f, k2);
+            nucleo.transform.localScale = Vector3.one * s * Mathf.Lerp(1.2f, 2.2f, k1);
+            nucleo.color = new Color(1, 1, 1, b * (1f - k1));
+            onda.transform.localScale = Vector3.one * s * Mathf.Lerp(1f, 5f, k2);
+            onda.color = new Color(color.r, color.g, color.b, b * 0.9f * (1f - k2));
+            estallido.transform.localScale = Vector3.one * s * Mathf.Lerp(1.5f, 4.5f, k2);
             estallido.transform.localRotation = Quaternion.Euler(0, 0, t * 90f);
-            estallido.color = new Color(estallido.color.r, estallido.color.g, estallido.color.b, 1f - k2);
+            estallido.color = new Color(estallido.color.r, estallido.color.g, estallido.color.b, b * (1f - k2));
 
             foreach (var p in ps)
             {
@@ -226,7 +243,7 @@ public static class EfectosRecogida
                 if (p.brillo)
                 {
                     p.brillo.transform.localPosition = p.r.transform.localPosition + new Vector3(0, 0, 0.05f);
-                    p.brillo.color = new Color(color.r, color.g, color.b, 0.65f * a);
+                    p.brillo.color = new Color(color.r, color.g, color.b, 0.65f * a * aj.brilloHaloHojas);
                 }
                 if (p.vida <= 0f) { p.r.enabled = false; if (p.brillo) p.brillo.enabled = false; }
             }

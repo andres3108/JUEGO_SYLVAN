@@ -285,6 +285,7 @@ boton("btn_continuar_3.png", "CONTINUAR\nZONA 3", "play")   # fin de la Zona 2
 boton("btn_zona4.png", "ZONA 4\nPRÓXIMAMENTE", "candado")   # fin de la Zona 3
 boton("btn_volver_inicio.png", "VOLVER AL\nINICIO", "casa")
 boton("btn_continuar_juego.png", "CONTINUAR", "play", 80)   # menú de pausa
+boton("btn_reintentar.png", "REINTENTAR", "atras", 80)       # mensaje de derrota
 panel_pausa()
 for _n, _i in (("tactil_izquierda.png", "izquierda"), ("tactil_derecha.png", "derecha"),
                ("tactil_saltar.png", "saltar"), ("tactil_pausa.png", "pausa")):

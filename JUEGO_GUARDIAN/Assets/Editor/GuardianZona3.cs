@@ -159,6 +159,7 @@ public static class GuardianZona3
         {
             gm.misionTitulo = "Misión 3: Limpia las ruinas y el santuario de cristal";
             gm.tituloVictoria = "¡Santuario limpio!";
+            gm.fondoContaminado = false;   // solo la Zona 1 empieza con el fondo oscuro
             EditorUtility.SetDirty(gm);
         }
 

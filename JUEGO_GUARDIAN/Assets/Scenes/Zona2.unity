@@ -1244,6 +1244,7 @@ MonoBehaviour:
   misionTitulo: "Misi\xF3n 2: Limpia el bosque y la cueva de cristal"
   misionDuracion: 3.5
   tituloVictoria: "\xA1Cueva limpia!"
+  fondoContaminado: 0
 --- !u!4 &475668103
 Transform:
   m_ObjectHideFlags: 0

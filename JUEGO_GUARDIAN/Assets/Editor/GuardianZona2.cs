@@ -111,6 +111,7 @@ public static class GuardianZona2
         {
             gm.misionTitulo = "Misión 2: Limpia el bosque y la cueva de cristal";
             gm.tituloVictoria = "¡Cueva limpia!";
+            gm.fondoContaminado = false;   // solo la Zona 1 empieza con el fondo oscuro
             EditorUtility.SetDirty(gm);
         }
 

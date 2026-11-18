@@ -2380,6 +2380,7 @@ MonoBehaviour:
   misionTitulo: "Misi\xF3n 3: Limpia las ruinas y el santuario de cristal"
   misionDuracion: 3.5
   tituloVictoria: "\xA1Santuario limpio!"
+  fondoContaminado: 0
 --- !u!4 &475668103
 Transform:
   m_ObjectHideFlags: 0
