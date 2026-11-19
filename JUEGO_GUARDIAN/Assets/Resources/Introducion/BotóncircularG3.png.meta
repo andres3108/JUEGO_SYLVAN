@@ -1,0 +1,912 @@
+fileFormatVersion: 2
+guid: f9231aead8a3f5f4a93d0b4cda7e9bd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -18159134694693103
+    second: "Bot\xF3ncircularG_0"
+  - first:
+      213: 492471516816962610
+    second: "Bot\xF3ncircularG_1"
+  - first:
+      213: -6822993977298103384
+    second: "Bot\xF3ncircularG_2"
+  - first:
+      213: 3155115635411343042
+    second: "Bot\xF3ncircularG_3"
+  - first:
+      213: 1683126986695029906
+    second: "Bot\xF3ncircularG_4"
+  - first:
+      213: -4756690092842488680
+    second: "Bot\xF3ncircularG_5"
+  - first:
+      213: 881118475056283799
+    second: "Bot\xF3ncircularG_6"
+  - first:
+      213: 4535075702866791485
+    second: "Bot\xF3ncircularG_7"
+  - first:
+      213: -6644048818155867356
+    second: "Bot\xF3ncircularG_8"
+  - first:
+      213: -2028631794023554109
+    second: "Bot\xF3ncircularG_9"
+  - first:
+      213: 4484708401185816774
+    second: "Bot\xF3ncircularG_10"
+  - first:
+      213: 9187091783814584011
+    second: "Bot\xF3ncircularG_11"
+  - first:
+      213: -8047710765235861719
+    second: "Bot\xF3ncircularG_12"
+  - first:
+      213: 4604509014684855464
+    second: "Bot\xF3ncircularG_13"
+  - first:
+      213: 6296373908669592650
+    second: "Bot\xF3ncircularG_14"
+  - first:
+      213: 8552113039871699609
+    second: "Bot\xF3ncircularG_15"
+  - first:
+      213: 7452404944985354956
+    second: "Bot\xF3ncircularG_16"
+  - first:
+      213: 3070296238407928459
+    second: "Bot\xF3ncircularG_17"
+  - first:
+      213: -2648457227764479685
+    second: "Bot\xF3ncircularG_18"
+  - first:
+      213: 7381577032168383369
+    second: "Bot\xF3ncircularG_19"
+  - first:
+      213: -3596778985570448815
+    second: "Bot\xF3ncircularG_20"
+  - first:
+      213: 571473459895279514
+    second: "Bot\xF3ncircularG_21"
+  - first:
+      213: 7386534170228433020
+    second: "Bot\xF3ncircularG_22"
+  - first:
+      213: 9198482752784058159
+    second: "Bot\xF3ncircularG_23"
+  - first:
+      213: -4838660961654423721
+    second: "Bot\xF3ncircularG_24"
+  - first:
+      213: -5731253469610905471
+    second: "Bot\xF3ncircularG_25"
+  - first:
+      213: -8740641824259896283
+    second: "Bot\xF3ncircularG_26"
+  - first:
+      213: 2708197379976435584
+    second: "Bot\xF3ncircularG_27"
+  - first:
+      213: 8235304934458280861
+    second: "Bot\xF3ncircularG_28"
+  - first:
+      213: -6445712256756022655
+    second: "Bot\xF3ncircularG_29"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_0"
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1185
+        width: 86
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117281bfc5c7fbff0800000000000000
+      internalID: -18159134694693103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_1"
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1185
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2347fdd3c3c95d600800000000000000
+      internalID: 492471516816962610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_2"
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1185
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3548e902bdf41a0800000000000000
+      internalID: -6822993977298103384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_3"
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1199
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c659f134f839cb20800000000000000
+      internalID: 3155115635411343042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_4"
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1187
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294b4d9a31bab5710800000000000000
+      internalID: 1683126986695029906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_5"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 1222
+        height: 1143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ce0850097dcfdb0800000000000000
+      internalID: -4756690092842488680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_6"
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1179
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79083cea59c5a3c00800000000000000
+      internalID: 881118475056283799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_7"
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1185
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c41eae253dfee30800000000000000
+      internalID: 4535075702866791485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_8"
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1159
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42337733dc89bc3a0800000000000000
+      internalID: -6644048818155867356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_9"
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1163
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3a929a12ad8d3e0800000000000000
+      internalID: -2028631794023554109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_10"
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1161
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c004e5a782ec3e30800000000000000
+      internalID: 4484708401185816774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_11"
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1165
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc69d255d4b1f7f70800000000000000
+      internalID: 9187091783814584011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_12"
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1168
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927870792b9c05090800000000000000
+      internalID: -8047710765235861719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_13"
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1173
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acef599d8086ef30800000000000000
+      internalID: 4604509014684855464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_14"
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1165
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44f947d5b6316750800000000000000
+      internalID: 6296373908669592650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_15"
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1147
+        width: 45
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ae98caf753fa670800000000000000
+      internalID: 8552113039871699609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_16"
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1151
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2773c10d24c6760800000000000000
+      internalID: 7452404944985354956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_17"
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1131
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ac5856922eb9a20800000000000000
+      internalID: 3070296238407928459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_18"
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1134
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b394848fe2ace3bd0800000000000000
+      internalID: -2648457227764479685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_19"
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 663
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98324949331a07660800000000000000
+      internalID: 7381577032168383369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_20"
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 610
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15acb75b19ca51ec0800000000000000
+      internalID: -3596778985570448815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_21"
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 570
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f1f9f75184ee700800000000000000
+      internalID: 571473459895279514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_22"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 566
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7020c931bd328660800000000000000
+      internalID: 7386534170228433020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_23"
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 566
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f274048f35397af70800000000000000
+      internalID: 9198482752784058159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_24"
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 575
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fb900ed7f99dcb0800000000000000
+      internalID: -4838660961654423721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_25"
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 76
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180fd1ab55f7670b0800000000000000
+      internalID: -5731253469610905471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_26"
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 72
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c011c129003b680800000000000000
+      internalID: -8740641824259896283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_27"
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 64
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087932f1b23759520800000000000000
+      internalID: 2708197379976435584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_28"
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 45
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b4863943ea94270800000000000000
+      internalID: 8235304934458280861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3ncircularG_29"
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 47
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1820da37ada3c86a0800000000000000
+      internalID: -6445712256756022655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Bot\xF3ncircularG_0": -18159134694693103
+      "Bot\xF3ncircularG_1": 492471516816962610
+      "Bot\xF3ncircularG_10": 4484708401185816774
+      "Bot\xF3ncircularG_11": 9187091783814584011
+      "Bot\xF3ncircularG_12": -8047710765235861719
+      "Bot\xF3ncircularG_13": 4604509014684855464
+      "Bot\xF3ncircularG_14": 6296373908669592650
+      "Bot\xF3ncircularG_15": 8552113039871699609
+      "Bot\xF3ncircularG_16": 7452404944985354956
+      "Bot\xF3ncircularG_17": 3070296238407928459
+      "Bot\xF3ncircularG_18": -2648457227764479685
+      "Bot\xF3ncircularG_19": 7381577032168383369
+      "Bot\xF3ncircularG_2": -6822993977298103384
+      "Bot\xF3ncircularG_20": -3596778985570448815
+      "Bot\xF3ncircularG_21": 571473459895279514
+      "Bot\xF3ncircularG_22": 7386534170228433020
+      "Bot\xF3ncircularG_23": 9198482752784058159
+      "Bot\xF3ncircularG_24": -4838660961654423721
+      "Bot\xF3ncircularG_25": -5731253469610905471
+      "Bot\xF3ncircularG_26": -8740641824259896283
+      "Bot\xF3ncircularG_27": 2708197379976435584
+      "Bot\xF3ncircularG_28": 8235304934458280861
+      "Bot\xF3ncircularG_29": -6445712256756022655
+      "Bot\xF3ncircularG_3": 3155115635411343042
+      "Bot\xF3ncircularG_4": 1683126986695029906
+      "Bot\xF3ncircularG_5": -4756690092842488680
+      "Bot\xF3ncircularG_6": 881118475056283799
+      "Bot\xF3ncircularG_7": 4535075702866791485
+      "Bot\xF3ncircularG_8": -6644048818155867356
+      "Bot\xF3ncircularG_9": -2028631794023554109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
