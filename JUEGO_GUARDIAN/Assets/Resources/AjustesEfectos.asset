@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb915b4a67dffb2419456e10097f716f, type: 3}
   m_Name: AjustesEfectos
   m_EditorClassIdentifier: Assembly-CSharp::AjustesEfectos
-  brilloAura: 0.4
-  "tama\xF1oAura": 1.9
-  petalos: 6
+  brilloAura: 0.7
+  "tama\xF1oAura": 1.3
+  petalos: 9
   giroRayos: 25
-  brilloDestello: 1
-  "tama\xF1oDestello": 1
+  brilloDestello: 0.1
+  "tama\xF1oDestello": 0.35
   cantidadHojas: 8
-  "tama\xF1oHojas": 1
-  brilloHaloHojas: 1
-  cantidadChispas: 16
+  "tama\xF1oHojas": 0.6
+  brilloHaloHojas: 0.3
+  cantidadChispas: 6
+  volumenRecogida: 0.4

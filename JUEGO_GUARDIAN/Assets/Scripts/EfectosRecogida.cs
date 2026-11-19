@@ -346,6 +346,6 @@ public static class EfectosRecogida
             fuente.spatialBlend = 0f;
         }
         fuente.pitch = tono * Random.Range(0.97f, 1.03f);
-        fuente.PlayOneShot(campanita, 0.9f);
+        fuente.PlayOneShot(campanita, AjustesEfectos.Actual.volumenRecogida);   // volumen editable en Ajustes de efectos
     }
 }

@@ -35,6 +35,10 @@ public class AjustesEfectos : ScriptableObject
     [Tooltip("Cuántas chispas del color del residuo salen al recogerlo")]
     [Range(0, 40)] public int cantidadChispas = 16;
 
+    [Header("Sonido al recoger")]
+    [Tooltip("Volumen de la campanita al recoger un residuo: 0 = sin sonido, 1 = 100 %")]
+    [Range(0f, 1f)] public float volumenRecogida = 0.9f;
+
     static AjustesEfectos actual;
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]

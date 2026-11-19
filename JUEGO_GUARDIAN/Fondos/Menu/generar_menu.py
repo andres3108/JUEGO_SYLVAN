@@ -158,8 +158,8 @@ def titulo():
     tabla = madera(760 * S, 330 * S, 34 * S)
     im.alpha_composite(tabla, (30 * S, 50 * S))
     d = ImageDraw.Draw(im)
-    texto(d, (W // 2, 150 * S), "GUARDIANES", fuente(FUENTE, 104 * S), fill=(132, 196, 64), borde=(28, 60, 16), grosor=7)
-    texto(d, (W // 2, 270 * S), "DEL BOSQUE", fuente(FUENTE, 100 * S), grosor=7)
+    texto(d, (W // 2, 180 * S), "SYLVAN", fuente(FUENTE, 170 * S), fill=(132, 196, 64), borde=(28, 60, 16), grosor=8)
+    texto(d, (W // 2, 300 * S), "Guardián del Bosque", fuente(FUENTE, 58 * S), grosor=5)
     # cinta inferior
     cinta = madera(600 * S, 66 * S, 18 * S, (92, 54, 26))
     im.alpha_composite(cinta, ((W - 600 * S) // 2, 372 * S))
