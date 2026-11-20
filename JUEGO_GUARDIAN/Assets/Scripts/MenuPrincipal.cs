@@ -6,19 +6,11 @@ using UnityEngine.InputSystem.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// Menú principal de Guardianes del Bosque (escena MenuPrincipal, la primera de Build Settings).
-//  - JUGAR: carga la primera zona con el guardián confirmado (Sylvan si no se eligió otro).
-//  - SELECCIONAR GUARDIÁN: panel con Sylvan y Maya; se resalta el marcado, CONFIRMAR lo guarda y
-//    VOLVER regresa sin cambiar la elección anterior.
-//  - SALIR: cierra el juego (en el editor detiene el modo Play).
-// La interfaz se construye por código con las imágenes de Assets/Resources/Menu (Fondos/Menu/generar_menu.py).
-// Ratón, teclado (flechas + Enter, Esc para volver) y mando funcionan a través del EventSystem.
 public class MenuPrincipal : MonoBehaviour
 {
     [Tooltip("Escena que se carga al pulsar JUGAR")]
     public string escenaJuego = "Zona1";
 
-    // guardián confirmado (se mantiene mientras el juego esté abierto); 0 = Sylvan (predeterminado), 1 = Maya
     public static int GuardianConfirmado { get; private set; }
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
@@ -35,6 +27,7 @@ public class MenuPrincipal : MonoBehaviour
     Font fuente;
     RectTransform raiz, aura;
     CanvasGroup grupoMenu, grupoSeleccion, fundido;
+    GameObject panelAyuda;
     Image personaje;
     Text nombreGuardian;
     Button btnJugar, btnSeleccionar, btnSalir, btnConfirmar;
@@ -45,7 +38,7 @@ public class MenuPrincipal : MonoBehaviour
 
     void Awake()
     {
-        if (instancia && instancia != this) { Destroy(gameObject); return; }   // una sola instancia del menú
+        if (instancia && instancia != this) { Destroy(gameObject); return; }
         instancia = this;
         Time.timeScale = 1f;
     }
@@ -63,7 +56,6 @@ public class MenuPrincipal : MonoBehaviour
 
     void Update()
     {
-        // aura que late y gira despacio detrás del guardián
         if (aura)
         {
             aura.localRotation = Quaternion.Euler(0, 0, Time.unscaledTime * 6f);
@@ -73,16 +65,23 @@ public class MenuPrincipal : MonoBehaviour
             personaje.rectTransform.anchoredPosition = new Vector2(-330f, 80f + 6f * Mathf.Sin(Time.unscaledTime * 1.6f));
 
         var kb = Keyboard.current;
-        if (kb == null || ocupado || grupoSeleccion == null || !grupoSeleccion.interactable) return;
+        if (kb == null || ocupado) return;
+
+        if (panelAyuda != null && panelAyuda.activeSelf && kb.escapeKey.wasPressedThisFrame)
+        {
+            panelAyuda.SetActive(false);
+            return;
+        }
+
+        if (grupoSeleccion == null || !grupoSeleccion.interactable) return;
         if (kb.escapeKey.wasPressedThisFrame) Volver();
         if (kb.leftArrowKey.wasPressedThisFrame || kb.aKey.wasPressedThisFrame) Marcar(0);
         if (kb.rightArrowKey.wasPressedThisFrame || kb.dKey.wasPressedThisFrame) Marcar(1);
     }
 
-    // ------------------------------------------------------------------ acciones
     void Jugar()
     {
-        if (ocupado) return;   // evita que la partida empiece dos veces
+        if (ocupado) return;
         ocupado = true;
         SeleccionPersonaje.Preseleccionar(GuardianConfirmado);
         StartCoroutine(CargarJuego());
@@ -123,8 +122,14 @@ public class MenuPrincipal : MonoBehaviour
     void Volver()
     {
         if (ocupado) return;
-        StartCoroutine(Cambiar(grupoSeleccion, grupoMenu));   // la elección anterior no cambia
+        StartCoroutine(Cambiar(grupoSeleccion, grupoMenu));
         Seleccionar(btnSeleccionar);
+    }
+
+    void AlternarAyuda()
+    {
+        if (ocupado || panelAyuda == null) return;
+        panelAyuda.SetActive(!panelAyuda.activeSelf);
     }
 
     void Salir()
@@ -164,7 +169,6 @@ public class MenuPrincipal : MonoBehaviour
         nombreGuardian.text = $"{Nombres[i]}: {Titulos[i]}";
     }
 
-    // ------------------------------------------------------------------ transiciones
     IEnumerator Fundir(float desde, float hasta, float dur)
     {
         fundido.blocksRaycasts = true;
@@ -190,7 +194,7 @@ public class MenuPrincipal : MonoBehaviour
             yield return null;
         }
         sale.alpha = 0f; entra.alpha = 1f; entra.transform.localScale = Vector3.one;
-        sale.gameObject.SetActive(sale == grupoMenu);   // el menú queda de fondo; el panel se oculta
+        sale.gameObject.SetActive(sale == grupoMenu);
         entra.interactable = true; entra.blocksRaycasts = true;
     }
 
@@ -205,7 +209,6 @@ public class MenuPrincipal : MonoBehaviour
         if (EventSystem.current) EventSystem.current.SetSelectedGameObject(b ? b.gameObject : null);
     }
 
-    // ------------------------------------------------------------------ construcción de la interfaz
     void Construir()
     {
         if (FindAnyObjectByType<EventSystem>() == null)
@@ -221,14 +224,12 @@ public class MenuPrincipal : MonoBehaviour
         scaler.matchWidthOrHeight = 0.5f;
         raiz = (RectTransform)canvasGo.transform;
 
-        // fondo que siempre cubre la pantalla (sin deformarse)
         var fondo = Img(raiz, "Fondo", "fondo_menu", Vector2.one * 0.5f, Vector2.zero, new Vector2(1920, 1080));
         var fit = fondo.gameObject.AddComponent<AspectRatioFitter>();
         fit.aspectMode = AspectRatioFitter.AspectMode.EnvelopeParent;
         fit.aspectRatio = 16f / 9f;
         fondo.raycastTarget = false;
 
-        // ---------------- menú principal
         grupoMenu = Grupo("Menu");
         aura = Img(grupoMenu.transform, "Aura", "aura_guardian", new Vector2(1, 0), new Vector2(-330, 430), new Vector2(820, 820)).rectTransform;
         aura.GetComponent<Image>().raycastTarget = false;
@@ -243,11 +244,28 @@ public class MenuPrincipal : MonoBehaviour
         btnJugar = Boton(grupoMenu.transform, "Jugar", "btn_jugar", new Vector2(0, 1), new Vector2(430, -585), Jugar);
         btnSeleccionar = Boton(grupoMenu.transform, "SeleccionarGuardian", "btn_seleccionar", new Vector2(0, 1), new Vector2(430, -775), AbrirSeleccion);
         btnSalir = Boton(grupoMenu.transform, "Salir", "btn_salir", new Vector2(0, 1), new Vector2(430, -965), Salir);
+
+        panelAyuda = new GameObject("PanelAyuda", typeof(RectTransform), typeof(Image));
+        panelAyuda.transform.SetParent(grupoMenu.transform, false);
+        Estirar((RectTransform)panelAyuda.transform);
+        var fondoAyuda = panelAyuda.GetComponent<Image>();
+        fondoAyuda.color = new Color32(10, 22, 12, 175); // verde oscuro semitransparente
+        fondoAyuda.raycastTarget = false;
+
+        var imgAyuda = Img(panelAyuda.transform, "TarjetaControles", "tarjeta_controles", new Vector2(0.5f, 0.5f), new Vector2(0, 20), new Vector2(980, 540));
+        imgAyuda.preserveAspect = true;
+        imgAyuda.raycastTarget = false;
+
+        panelAyuda.SetActive(false);
+
+        var btnAyuda = Boton(grupoMenu.transform, "Ayuda", "btn_ayuda", new Vector2(1, 1), new Vector2(-105, -105), AlternarAyuda, 1f);
+        ((RectTransform)btnAyuda.transform).sizeDelta = new Vector2(135, 135);
+        btnAyuda.GetComponent<Image>().preserveAspect = true;
+
         Navegacion(btnJugar, btnSalir, btnSeleccionar);
         Navegacion(btnSeleccionar, btnJugar, btnSalir);
         Navegacion(btnSalir, btnSeleccionar, btnJugar);
 
-        // ---------------- selección de guardián
         grupoSeleccion = Grupo("SeleccionGuardian");
         var velo = new GameObject("Velo", typeof(RectTransform), typeof(Image));
         velo.transform.SetParent(grupoSeleccion.transform, false);
@@ -286,7 +304,6 @@ public class MenuPrincipal : MonoBehaviour
         grupoSeleccion.alpha = 0f; grupoSeleccion.interactable = false; grupoSeleccion.blocksRaycasts = false;
         grupoSeleccion.gameObject.SetActive(false);
 
-        // ---------------- fundido a negro (entradas y salidas)
         var f = new GameObject("Fundido", typeof(RectTransform), typeof(Image), typeof(CanvasGroup));
         f.transform.SetParent(raiz, false);
         Estirar((RectTransform)f.transform);
@@ -307,7 +324,7 @@ public class MenuPrincipal : MonoBehaviour
     {
         var img = Img(padre, "Boton_" + nombre, recurso, ancla, pos, new Vector2(700, 190) * escala);
         var b = img.gameObject.AddComponent<Button>();
-        b.transition = Selectable.Transition.None;   // los estados los anima BotonMenu
+        b.transition = Selectable.Transition.None;
         b.onClick.AddListener(accion);
         img.gameObject.AddComponent<BotonMenu>();
         return b;
@@ -366,8 +383,6 @@ public class MenuPrincipal : MonoBehaviour
     }
 }
 
-// Estados visuales de los botones de madera: reposo, resaltado (ratón encima o seleccionado con
-// teclado/mando: crece y se ilumina) y pulsado (se encoge y oscurece).
 public class BotonMenu : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler,
     IPointerUpHandler, ISelectHandler, IDeselectHandler
 {
