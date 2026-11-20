@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb915b4a67dffb2419456e10097f716f, type: 3}
+  m_Name: AjustesEfectos
+  m_EditorClassIdentifier: Assembly-CSharp::AjustesEfectos
+  brilloAura: 0.7
+  "tama\xF1oAura": 1.3
+  petalos: 9
+  giroRayos: 25
+  brilloDestello: 0.1
+  "tama\xF1oDestello": 0.35
+  cantidadHojas: 8
+  "tama\xF1oHojas": 0.6
+  brilloHaloHojas: 0.3
+  cantidadChispas: 6
+  volumenRecogida: 0.4

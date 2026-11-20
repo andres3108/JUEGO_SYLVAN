@@ -65,7 +65,7 @@ public class MenuPausa : MonoBehaviour
         Pausado = false;
         Time.timeScale = 1f;
         AudioListener.pause = false;
-        SceneManager.LoadScene(0);   // el menú principal es la escena 0
+        SceneManager.LoadScene("MenuPrincipal");   // vuelve al menú, no a la introducción
     }
 
     public void Salir()

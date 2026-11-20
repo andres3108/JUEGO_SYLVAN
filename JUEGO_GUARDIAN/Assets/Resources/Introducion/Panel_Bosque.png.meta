@@ -1,0 +1,2810 @@
+fileFormatVersion: 2
+guid: 22f3540245a8fd940b268d82d7a27d0a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8111830451493698898
+    second: Cartel del bosque lleno de vida_0
+  - first:
+      213: -8654952359776924934
+    second: Cartel del bosque lleno de vida_1
+  - first:
+      213: -3364455923055297429
+    second: Cartel del bosque lleno de vida_2
+  - first:
+      213: 2074378450538913420
+    second: Cartel del bosque lleno de vida_3
+  - first:
+      213: 8986051274040851083
+    second: Cartel del bosque lleno de vida_4
+  - first:
+      213: 5545046300921954749
+    second: Cartel del bosque lleno de vida_5
+  - first:
+      213: 6700683564935658289
+    second: Cartel del bosque lleno de vida_6
+  - first:
+      213: -4298251765215397584
+    second: Cartel del bosque lleno de vida_7
+  - first:
+      213: 4138762977072289491
+    second: Cartel del bosque lleno de vida_8
+  - first:
+      213: 7622704848130844617
+    second: Cartel del bosque lleno de vida_9
+  - first:
+      213: 4296030799618611834
+    second: Cartel del bosque lleno de vida_10
+  - first:
+      213: 1798364231450131184
+    second: Cartel del bosque lleno de vida_11
+  - first:
+      213: 830818697776837656
+    second: Cartel del bosque lleno de vida_12
+  - first:
+      213: -4231505201140405703
+    second: Cartel del bosque lleno de vida_13
+  - first:
+      213: 2125851252947718210
+    second: Cartel del bosque lleno de vida_14
+  - first:
+      213: 3892692448986444163
+    second: Cartel del bosque lleno de vida_15
+  - first:
+      213: 6118529190509912995
+    second: Cartel del bosque lleno de vida_16
+  - first:
+      213: -2434194558178355251
+    second: Cartel del bosque lleno de vida_17
+  - first:
+      213: -3128975813859616046
+    second: Cartel del bosque lleno de vida_18
+  - first:
+      213: -8735017476807587025
+    second: Cartel del bosque lleno de vida_19
+  - first:
+      213: -1678860936012811907
+    second: Cartel del bosque lleno de vida_20
+  - first:
+      213: 9024706392314750222
+    second: Cartel del bosque lleno de vida_21
+  - first:
+      213: -6615413575902024120
+    second: Cartel del bosque lleno de vida_22
+  - first:
+      213: -8719326415943019993
+    second: Cartel del bosque lleno de vida_23
+  - first:
+      213: 1498173144524511448
+    second: Cartel del bosque lleno de vida_24
+  - first:
+      213: 6988849438427663083
+    second: Cartel del bosque lleno de vida_25
+  - first:
+      213: 4739618620887329330
+    second: Cartel del bosque lleno de vida_26
+  - first:
+      213: 1576329377525865369
+    second: Cartel del bosque lleno de vida_27
+  - first:
+      213: 3021710222340232920
+    second: Cartel del bosque lleno de vida_28
+  - first:
+      213: 7763485967072344358
+    second: Cartel del bosque lleno de vida_29
+  - first:
+      213: -8058765614398254449
+    second: Cartel del bosque lleno de vida_30
+  - first:
+      213: -9098487014683823950
+    second: Cartel del bosque lleno de vida_31
+  - first:
+      213: -2354117930635970464
+    second: Cartel del bosque lleno de vida_32
+  - first:
+      213: 1783428663902423720
+    second: Cartel del bosque lleno de vida_33
+  - first:
+      213: -359806268443724976
+    second: Cartel del bosque lleno de vida_34
+  - first:
+      213: 1946813223588655385
+    second: Cartel del bosque lleno de vida_35
+  - first:
+      213: -1799662011186917885
+    second: Cartel del bosque lleno de vida_36
+  - first:
+      213: 1750586654889934369
+    second: Cartel del bosque lleno de vida_37
+  - first:
+      213: 7233998401948325153
+    second: Cartel del bosque lleno de vida_38
+  - first:
+      213: 2217362965901207433
+    second: Cartel del bosque lleno de vida_39
+  - first:
+      213: -6867667518297098038
+    second: Cartel del bosque lleno de vida_40
+  - first:
+      213: 5185064602501658251
+    second: Cartel del bosque lleno de vida_41
+  - first:
+      213: 1949638841628904740
+    second: Cartel del bosque lleno de vida_42
+  - first:
+      213: -7534411054176098767
+    second: Cartel del bosque lleno de vida_43
+  - first:
+      213: -1157188290310352785
+    second: Cartel del bosque lleno de vida_44
+  - first:
+      213: -6795422897343448845
+    second: Cartel del bosque lleno de vida_45
+  - first:
+      213: -1042406247110326153
+    second: Cartel del bosque lleno de vida_46
+  - first:
+      213: -4974910202066215233
+    second: Cartel del bosque lleno de vida_47
+  - first:
+      213: 8163285417630762086
+    second: Cartel del bosque lleno de vida_48
+  - first:
+      213: -5245739575261393348
+    second: Cartel del bosque lleno de vida_49
+  - first:
+      213: 9047372635836358707
+    second: Cartel del bosque lleno de vida_50
+  - first:
+      213: 3604793081595021216
+    second: Cartel del bosque lleno de vida_51
+  - first:
+      213: 6645871275707550867
+    second: Cartel del bosque lleno de vida_52
+  - first:
+      213: 3660276086990312388
+    second: Cartel del bosque lleno de vida_53
+  - first:
+      213: 2855629389911620441
+    second: Cartel del bosque lleno de vida_54
+  - first:
+      213: -5951039667652835351
+    second: Cartel del bosque lleno de vida_55
+  - first:
+      213: -4257548607818384261
+    second: Cartel del bosque lleno de vida_56
+  - first:
+      213: -7359437578548367951
+    second: Cartel del bosque lleno de vida_57
+  - first:
+      213: 3627686964127369014
+    second: Cartel del bosque lleno de vida_58
+  - first:
+      213: 4794727397366235907
+    second: Cartel del bosque lleno de vida_59
+  - first:
+      213: 9064313031959600420
+    second: Cartel del bosque lleno de vida_60
+  - first:
+      213: -7897029378433584
+    second: Cartel del bosque lleno de vida_61
+  - first:
+      213: 7690225123951353527
+    second: Cartel del bosque lleno de vida_62
+  - first:
+      213: -6906905399480991068
+    second: Cartel del bosque lleno de vida_63
+  - first:
+      213: -9110339944210177676
+    second: Cartel del bosque lleno de vida_64
+  - first:
+      213: -3491070909026817709
+    second: Cartel del bosque lleno de vida_65
+  - first:
+      213: 4836589164117524003
+    second: Cartel del bosque lleno de vida_66
+  - first:
+      213: 8033295723237718635
+    second: Cartel del bosque lleno de vida_67
+  - first:
+      213: 5826655681783522561
+    second: Cartel del bosque lleno de vida_68
+  - first:
+      213: 6263085869284363751
+    second: Cartel del bosque lleno de vida_69
+  - first:
+      213: -23708260113132561
+    second: Cartel del bosque lleno de vida_70
+  - first:
+      213: 2374355682806170557
+    second: Cartel del bosque lleno de vida_71
+  - first:
+      213: 2759642510806704589
+    second: Cartel del bosque lleno de vida_72
+  - first:
+      213: 483412361976057430
+    second: Cartel del bosque lleno de vida_73
+  - first:
+      213: 130372902303362289
+    second: Cartel del bosque lleno de vida_74
+  - first:
+      213: 5282122554146371176
+    second: Cartel del bosque lleno de vida_75
+  - first:
+      213: 6557129091813873848
+    second: Cartel del bosque lleno de vida_76
+  - first:
+      213: -6307784730885750806
+    second: Cartel del bosque lleno de vida_77
+  - first:
+      213: -5842252609974417888
+    second: Cartel del bosque lleno de vida_78
+  - first:
+      213: -5534736794791827817
+    second: Cartel del bosque lleno de vida_79
+  - first:
+      213: -6298119191813747526
+    second: Cartel del bosque lleno de vida_80
+  - first:
+      213: -7853467901199376471
+    second: Cartel del bosque lleno de vida_81
+  - first:
+      213: 4751318064200036130
+    second: Cartel del bosque lleno de vida_82
+  - first:
+      213: -532171589354322993
+    second: Cartel del bosque lleno de vida_83
+  - first:
+      213: 4028711605096834917
+    second: Cartel del bosque lleno de vida_84
+  - first:
+      213: -6670496601353882884
+    second: Cartel del bosque lleno de vida_85
+  - first:
+      213: -6054820755880640359
+    second: Cartel del bosque lleno de vida_86
+  - first:
+      213: -4073485451298858039
+    second: Cartel del bosque lleno de vida_87
+  - first:
+      213: -8939438643262038948
+    second: Cartel del bosque lleno de vida_88
+  - first:
+      213: -3866996242006741279
+    second: Cartel del bosque lleno de vida_89
+  - first:
+      213: 7692712351784463882
+    second: Cartel del bosque lleno de vida_90
+  - first:
+      213: -6944101765663351080
+    second: Cartel del bosque lleno de vida_91
+  - first:
+      213: 7066120407882107907
+    second: Cartel del bosque lleno de vida_92
+  - first:
+      213: 3253256572159576515
+    second: Cartel del bosque lleno de vida_93
+  - first:
+      213: -6870191341495342580
+    second: Cartel del bosque lleno de vida_94
+  - first:
+      213: 1851723792914817638
+    second: Cartel del bosque lleno de vida_95
+  - first:
+      213: 6243060471424432429
+    second: Cartel del bosque lleno de vida_96
+  - first:
+      213: 274276695113033814
+    second: Cartel del bosque lleno de vida_97
+  - first:
+      213: 174777424429112358
+    second: Cartel del bosque lleno de vida_98
+  - first:
+      213: -714590333446158996
+    second: Cartel del bosque lleno de vida_99
+  - first:
+      213: 2232032013943674642
+    second: Cartel del bosque lleno de vida_100
+  - first:
+      213: -8434644730414042717
+    second: Cartel del bosque lleno de vida_101
+  - first:
+      213: -3692005406417737037
+    second: Cartel del bosque lleno de vida_102
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 927
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea28584ce2dfc6f80800000000000000
+      internalID: -8111830451493698898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1521
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa41974fae63e780800000000000000
+      internalID: -8654952359776924934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 972
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c74d3e92d0f41d0800000000000000
+      internalID: -3364455923055297429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 926
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ed812d53ca9cc10800000000000000
+      internalID: 2074378450538913420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 931
+        width: 169
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ab6aa060ed4bc70800000000000000
+      internalID: 8986051274040851083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_5
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 926
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db10c855b36f3fc40800000000000000
+      internalID: 5545046300921954749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_6
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 921
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bb948533c9dfc50800000000000000
+      internalID: 6700683564935658289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_7
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 926
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039f32beaca8954c0800000000000000
+      internalID: -4298251765215397584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_8
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 965
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d69ee1eff6df6930800000000000000
+      internalID: 4138762977072289491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_9
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 971
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7ac7c2ca949c960800000000000000
+      internalID: 7622704848130844617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 975
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a976b30419e9b30800000000000000
+      internalID: 4296030799618611834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_11
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 905
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa7a588db215f810800000000000000
+      internalID: 1798364231450131184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_12
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 927
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814bdb92439a78b00800000000000000
+      internalID: 830818697776837656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_13
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 967
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93aeec4607ca645c0800000000000000
+      internalID: -4231505201140405703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_14
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 957
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2409449837a808d10800000000000000
+      internalID: 2125851252947718210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_15
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 985
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381bea1782f950630800000000000000
+      internalID: 3892692448986444163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_16
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 975
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3a334a1e169e450800000000000000
+      internalID: 6118529190509912995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_17
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 935
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7179d32f0083ed0800000000000000
+      internalID: -2434194558178355251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_18
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 983
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dadb184315a394d0800000000000000
+      internalID: -3128975813859616046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_19
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 927
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b0e0c82ebf6c680800000000000000
+      internalID: -8735017476807587025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_20
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 967
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d713da9afdc73b8e0800000000000000
+      internalID: -1678860936012811907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_21
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 951
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e052e1c16a23e3d70800000000000000
+      internalID: 9024706392314750222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_22
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 980
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e201617645134a0800000000000000
+      internalID: -6615413575902024120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 927
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722590952dabef680800000000000000
+      internalID: -8719326415943019993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_24
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 927
+        width: 57
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8d96b89849ac410800000000000000
+      internalID: 1498173144524511448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_25
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 959
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea4b2629816df060800000000000000
+      internalID: 6988849438427663083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_26
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 927
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ae0dc260286c140800000000000000
+      internalID: 4739618620887329330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_27
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 967
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b1174973f30e510800000000000000
+      internalID: 1576329377525865369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_28
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 967
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d691c000754fe920800000000000000
+      internalID: 3021710222340232920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_29
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 929
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629b316ba517dbb60800000000000000
+      internalID: 7763485967072344358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_30
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 925
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82d8a1fe53892090800000000000000
+      internalID: -8058765614398254449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_31
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 947
+        width: 91
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b03448144eabb180800000000000000
+      internalID: -9098487014683823950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_32
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 925
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068b019f63e745fd0800000000000000
+      internalID: -2354117930635970464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_33
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 863
+        width: 140
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa472abbe200c810800000000000000
+      internalID: 1783428663902423720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_34
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 959
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053f37dea16b10bf0800000000000000
+      internalID: -359806268443724976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_35
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 919
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911f80cef48740b10800000000000000
+      internalID: 1946813223588655385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_36
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 911
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e40739fe05607e0800000000000000
+      internalID: -1799662011186917885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 895
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ef041a9455b4810800000000000000
+      internalID: 1750586654889934369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_38
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 893
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1259fdd1833546460800000000000000
+      internalID: 7233998401948325153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_39
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 867
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987e5a09ed7a5ce10800000000000000
+      internalID: 2217362965901207433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_40
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 867
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8b96057c421b0a0800000000000000
+      internalID: -6867667518297098038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_41
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 837
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b863099c8cc05f740800000000000000
+      internalID: 5185064602501658251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_42
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 815
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d489362328e0b10800000000000000
+      internalID: 1949638841628904740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_43
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 123
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136ae04b015607790800000000000000
+      internalID: -7534411054176098767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_44
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 111
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f605fc98167d0ffe0800000000000000
+      internalID: -1157188290310352785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_45
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 115
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8b949e0eec1b1a0800000000000000
+      internalID: -6795422897343448845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_46
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 75
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77847598a01a881f0800000000000000
+      internalID: -1042406247110326153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_47
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 102
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe5068878195fab0800000000000000
+      internalID: -4974910202066215233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_48
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 91
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664020e16d0d94170800000000000000
+      internalID: 8163285417630762086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_49
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 111
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e065046a36337b0800000000000000
+      internalID: -5245739575261393348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_50
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 97
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330ad9d2a79be8d70800000000000000
+      internalID: 9047372635836358707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_51
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 79
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7c14d653cc60230800000000000000
+      internalID: 3604793081595021216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_52
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 98
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c4583c6b0ea3c50800000000000000
+      internalID: 6645871275707550867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_53
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 95
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c31ae845b9ebc230800000000000000
+      internalID: 3660276086990312388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 63
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bf8d3eccb31a720800000000000000
+      internalID: 2855629389911620441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_55
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 81
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e74b45c3f8a96da0800000000000000
+      internalID: -5951039667652835351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_56
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 79
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cb60149162ae4c0800000000000000
+      internalID: -4257548607818384261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_57
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 87
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bda6f7a3860ed990800000000000000
+      internalID: -7359437578548367951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_58
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 81
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6378025d212285230800000000000000
+      internalID: 3627686964127369014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_59
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 83
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30309d21a2b4a8240800000000000000
+      internalID: 4794727397366235907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_60
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 71
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d55e28da8eacd70800000000000000
+      internalID: 9064313031959600420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_61
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 75
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd1e1191b1f3eff0800000000000000
+      internalID: -7897029378433584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_62
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 79
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be97e3710b29ba60800000000000000
+      internalID: 7690225123951353527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_63
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 89
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a245be222eb520a0800000000000000
+      internalID: -6906905399480991068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_64
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 39
+        width: 89
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471ec42e612919180800000000000000
+      internalID: -9110339944210177676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_65
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 80
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359a1c531893d8fc0800000000000000
+      internalID: -3491070909026817709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_66
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 61
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e7abb28340f1340800000000000000
+      internalID: 4836589164117524003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_67
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 71
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6abf37e5effb7f60800000000000000
+      internalID: 8033295723237718635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_68
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 81
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105e73db8707cd050800000000000000
+      internalID: 5826655681783522561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_69
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 61
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed86743a63fae650800000000000000
+      internalID: 6263085869284363751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_70
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 78
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3d6b98675cbaff0800000000000000
+      internalID: -23708260113132561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_71
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 59
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db38714e9e763f020800000000000000
+      internalID: 2374355682806170557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_72
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 63
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc163bb0e383c4620800000000000000
+      internalID: 2759642510806704589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_73
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 49
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e8d936bfc65b600800000000000000
+      internalID: 483412361976057430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_74
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 47
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fce022c67d2fc100800000000000000
+      internalID: 130372902303362289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_75
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 51
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86639f32a7edd4940800000000000000
+      internalID: 5282122554146371176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_76
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 47
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b812f7fa2a9ffa50800000000000000
+      internalID: 6557129091813873848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_77
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 61
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeffbe3153f3678a0800000000000000
+      internalID: -6307784730885750806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_78
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 47
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026406e64362ceea0800000000000000
+      internalID: -5842252609974417888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_79
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 15
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796262d953aa033b0800000000000000
+      internalID: -5534736794791827817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_80
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc0fd2c6f59898a0800000000000000
+      internalID: -6298119191813747526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_81
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 37
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af1416ad80e20390800000000000000
+      internalID: -7853467901199376471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_82
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 41
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f2a871b9210f140800000000000000
+      internalID: 4751318064200036130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_83
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc30bf052c85d98f0800000000000000
+      internalID: -532171589354322993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_84
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 21
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5676a4c1cdbd8e730800000000000000
+      internalID: 4028711605096834917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_85
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 49
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2f9d0dea2ad63a0800000000000000
+      internalID: -6670496601353882884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_86
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 34
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99082133a94f8fba0800000000000000
+      internalID: -6054820755880640359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_87
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 21
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb1c9570921877c0800000000000000
+      internalID: -4073485451298858039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_88
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 33
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c57f8caebb0f380800000000000000
+      internalID: -8939438643262038948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_89
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 21
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eeea67f76ba55ac0800000000000000
+      internalID: -3866996242006741279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_90
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 21
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e6f5f402102ca60800000000000000
+      internalID: 7692712351784463882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_91
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 15
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de197d4c3891af90800000000000000
+      internalID: -6944101765663351080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_92
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 35
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c83f3b217ef0260800000000000000
+      internalID: 7066120407882107907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_93
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9c6caad93e52d20800000000000000
+      internalID: 3253256572159576515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_94
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 33
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0aa43fef5d28a0a0800000000000000
+      internalID: -6870191341495342580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_95
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662a3d29af4a2b910800000000000000
+      internalID: 1851723792914817638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_96
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 23
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29398eeb6ec3a650800000000000000
+      internalID: 6243060471424432429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_97
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 37
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6586166733d6ec300800000000000000
+      internalID: 274276695113033814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_98
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 33
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cdad9342fec6200800000000000000
+      internalID: 174777424429112358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_99
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 17
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c658307b0e34516f0800000000000000
+      internalID: -714590333446158996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_100
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21799667a45c9fe10800000000000000
+      internalID: 2232032013943674642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_101
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 17
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1fc0d6e4f12fa80800000000000000
+      internalID: -8434644730414042717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartel del bosque lleno de vida_102
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 15
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba26a9d4ac53ccc0800000000000000
+      internalID: -3692005406417737037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cartel del bosque lleno de vida_0: -8111830451493698898
+      Cartel del bosque lleno de vida_1: -8654952359776924934
+      Cartel del bosque lleno de vida_10: 4296030799618611834
+      Cartel del bosque lleno de vida_100: 2232032013943674642
+      Cartel del bosque lleno de vida_101: -8434644730414042717
+      Cartel del bosque lleno de vida_102: -3692005406417737037
+      Cartel del bosque lleno de vida_11: 1798364231450131184
+      Cartel del bosque lleno de vida_12: 830818697776837656
+      Cartel del bosque lleno de vida_13: -4231505201140405703
+      Cartel del bosque lleno de vida_14: 2125851252947718210
+      Cartel del bosque lleno de vida_15: 3892692448986444163
+      Cartel del bosque lleno de vida_16: 6118529190509912995
+      Cartel del bosque lleno de vida_17: -2434194558178355251
+      Cartel del bosque lleno de vida_18: -3128975813859616046
+      Cartel del bosque lleno de vida_19: -8735017476807587025
+      Cartel del bosque lleno de vida_2: -3364455923055297429
+      Cartel del bosque lleno de vida_20: -1678860936012811907
+      Cartel del bosque lleno de vida_21: 9024706392314750222
+      Cartel del bosque lleno de vida_22: -6615413575902024120
+      Cartel del bosque lleno de vida_23: -8719326415943019993
+      Cartel del bosque lleno de vida_24: 1498173144524511448
+      Cartel del bosque lleno de vida_25: 6988849438427663083
+      Cartel del bosque lleno de vida_26: 4739618620887329330
+      Cartel del bosque lleno de vida_27: 1576329377525865369
+      Cartel del bosque lleno de vida_28: 3021710222340232920
+      Cartel del bosque lleno de vida_29: 7763485967072344358
+      Cartel del bosque lleno de vida_3: 2074378450538913420
+      Cartel del bosque lleno de vida_30: -8058765614398254449
+      Cartel del bosque lleno de vida_31: -9098487014683823950
+      Cartel del bosque lleno de vida_32: -2354117930635970464
+      Cartel del bosque lleno de vida_33: 1783428663902423720
+      Cartel del bosque lleno de vida_34: -359806268443724976
+      Cartel del bosque lleno de vida_35: 1946813223588655385
+      Cartel del bosque lleno de vida_36: -1799662011186917885
+      Cartel del bosque lleno de vida_37: 1750586654889934369
+      Cartel del bosque lleno de vida_38: 7233998401948325153
+      Cartel del bosque lleno de vida_39: 2217362965901207433
+      Cartel del bosque lleno de vida_4: 8986051274040851083
+      Cartel del bosque lleno de vida_40: -6867667518297098038
+      Cartel del bosque lleno de vida_41: 5185064602501658251
+      Cartel del bosque lleno de vida_42: 1949638841628904740
+      Cartel del bosque lleno de vida_43: -7534411054176098767
+      Cartel del bosque lleno de vida_44: -1157188290310352785
+      Cartel del bosque lleno de vida_45: -6795422897343448845
+      Cartel del bosque lleno de vida_46: -1042406247110326153
+      Cartel del bosque lleno de vida_47: -4974910202066215233
+      Cartel del bosque lleno de vida_48: 8163285417630762086
+      Cartel del bosque lleno de vida_49: -5245739575261393348
+      Cartel del bosque lleno de vida_5: 5545046300921954749
+      Cartel del bosque lleno de vida_50: 9047372635836358707
+      Cartel del bosque lleno de vida_51: 3604793081595021216
+      Cartel del bosque lleno de vida_52: 6645871275707550867
+      Cartel del bosque lleno de vida_53: 3660276086990312388
+      Cartel del bosque lleno de vida_54: 2855629389911620441
+      Cartel del bosque lleno de vida_55: -5951039667652835351
+      Cartel del bosque lleno de vida_56: -4257548607818384261
+      Cartel del bosque lleno de vida_57: -7359437578548367951
+      Cartel del bosque lleno de vida_58: 3627686964127369014
+      Cartel del bosque lleno de vida_59: 4794727397366235907
+      Cartel del bosque lleno de vida_6: 6700683564935658289
+      Cartel del bosque lleno de vida_60: 9064313031959600420
+      Cartel del bosque lleno de vida_61: -7897029378433584
+      Cartel del bosque lleno de vida_62: 7690225123951353527
+      Cartel del bosque lleno de vida_63: -6906905399480991068
+      Cartel del bosque lleno de vida_64: -9110339944210177676
+      Cartel del bosque lleno de vida_65: -3491070909026817709
+      Cartel del bosque lleno de vida_66: 4836589164117524003
+      Cartel del bosque lleno de vida_67: 8033295723237718635
+      Cartel del bosque lleno de vida_68: 5826655681783522561
+      Cartel del bosque lleno de vida_69: 6263085869284363751
+      Cartel del bosque lleno de vida_7: -4298251765215397584
+      Cartel del bosque lleno de vida_70: -23708260113132561
+      Cartel del bosque lleno de vida_71: 2374355682806170557
+      Cartel del bosque lleno de vida_72: 2759642510806704589
+      Cartel del bosque lleno de vida_73: 483412361976057430
+      Cartel del bosque lleno de vida_74: 130372902303362289
+      Cartel del bosque lleno de vida_75: 5282122554146371176
+      Cartel del bosque lleno de vida_76: 6557129091813873848
+      Cartel del bosque lleno de vida_77: -6307784730885750806
+      Cartel del bosque lleno de vida_78: -5842252609974417888
+      Cartel del bosque lleno de vida_79: -5534736794791827817
+      Cartel del bosque lleno de vida_8: 4138762977072289491
+      Cartel del bosque lleno de vida_80: -6298119191813747526
+      Cartel del bosque lleno de vida_81: -7853467901199376471
+      Cartel del bosque lleno de vida_82: 4751318064200036130
+      Cartel del bosque lleno de vida_83: -532171589354322993
+      Cartel del bosque lleno de vida_84: 4028711605096834917
+      Cartel del bosque lleno de vida_85: -6670496601353882884
+      Cartel del bosque lleno de vida_86: -6054820755880640359
+      Cartel del bosque lleno de vida_87: -4073485451298858039
+      Cartel del bosque lleno de vida_88: -8939438643262038948
+      Cartel del bosque lleno de vida_89: -3866996242006741279
+      Cartel del bosque lleno de vida_9: 7622704848130844617
+      Cartel del bosque lleno de vida_90: 7692712351784463882
+      Cartel del bosque lleno de vida_91: -6944101765663351080
+      Cartel del bosque lleno de vida_92: 7066120407882107907
+      Cartel del bosque lleno de vida_93: 3253256572159576515
+      Cartel del bosque lleno de vida_94: -6870191341495342580
+      Cartel del bosque lleno de vida_95: 1851723792914817638
+      Cartel del bosque lleno de vida_96: 6243060471424432429
+      Cartel del bosque lleno de vida_97: 274276695113033814
+      Cartel del bosque lleno de vida_98: 174777424429112358
+      Cartel del bosque lleno de vida_99: -714590333446158996
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
