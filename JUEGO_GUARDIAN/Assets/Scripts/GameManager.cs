@@ -66,7 +66,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        if (SceneManager.GetActiveScene().buildIndex <= 1) PuntajeTotal = 0;   // partida nueva desde la Zona 1
+        if (SceneManager.GetActiveScene().name == "Zona1") PuntajeTotal = 0;   // partida nueva desde la Zona 1
         total = FindObjectsByType<Residuo>().Length;
         BuildHud();
         if (fondoContaminado && !GetComponent<FondoContaminacion>()) gameObject.AddComponent<FondoContaminacion>();
@@ -153,7 +153,7 @@ public class GameManager : MonoBehaviour
             Continuar();
     }
 
-    public void VolverAlInicio() => SceneManager.LoadScene(0);   // el menú principal es la escena 0
+    public void VolverAlInicio() => SceneManager.LoadScene("MenuPrincipal");   // vuelve al menú, no a la introducción
 
     // si se ganó y hay otra zona en Build Settings, se pasa a ella; si no, se repite la zona
     public void Continuar()
